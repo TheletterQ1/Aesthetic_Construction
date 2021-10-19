@@ -1,0 +1,126 @@
+a {
+  color: white;
+  font-size: 20px;
+}
+
+a:visited {
+    color: lightskyblue;
+  }
+  a:active {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  #nav {
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    font-size: xx-large;
+    background-color: black;
+  }
+  
+  .icons {
+      /* display: flex; */
+      width: auto;
+      /* justify-content: space-between; */
+      /* flex-direction: row; */
+  }
+  div #linkedin {
+      background-image: url('https://p1.hiclipart.com/preview/495/886/336/linkedin-icon-linkedin-logo-icon-logo-icon-website-icon-line-symbol-number-square-metal-png-clipart.jpg');
+      height: 40px;
+      width: 40px;
+      background-size: cover;
+      margin-top: auto;
+      /* margin-right: 20px; */
+      border-radius: 10px;
+  }
+  div #IG {
+      background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc2Hp5165VRKKBOqsVO8XhzCIDqcHm-g1Lvg&usqp=CAU');
+      height: 40px;
+      width: 40px;
+      background-size: cover;
+      margin-top: auto;
+      border-style: solid;
+      border-width: 1px;
+      border-color: white;
+      border-radius: 10px;
+  }
+  div #github {
+      background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCbmLVIGyVVDqk_7ey7S1UbliLmqOHVMXJJA&usqp=CAU');
+      height: 40px;
+      width: 40px;
+      background-size: cover;
+      margin-top: auto;
+      border-style: solid;
+      border-width: 1px;
+      border-color: white;
+      border-radius: 10px;
+  }
+ #hamburger {
+    cursor: pointer
+  }
+  nav.unclicked .icons {
+      display: none;
+  }
+  nav.clicked .icons {
+      display: block;
+  }
+   nav.unclicked div a {
+       float: left;
+       display: none;
+   }
+  
+  #nav.clicked div a {
+    float: none;
+    color: #FEFBF5;
+    text-decoration: none;
+    display: block;
+  }
+  
+  nav.clicked #hamburger {
+    cursor: pointer;
+    float: right;
+    display: none;
+    text-align: left;
+    position: absolute;
+  }
+  
+  #nav.clicked a {
+      float: none;
+      display: block;
+      text-align: left;
+  }
+  /* @keyframes  */
+
+  @media (min-width: 650px) {
+    nav.unclicked div a {
+      display: contents;
+      color: #FEFBF5;
+      text-decoration: none;
+    }
+    #hamburger {
+      display: none;
+      
+    }
+    #hamburger:hover {
+      background-color: yellow;
+      pointer-events: stroke;
+    }
+    #hamburger:active {
+      color: pink;
+    }
+    
+    p {
+      font-size: 35;
+    }
+    .icons {
+      display: block;
+    }
+     #icons {
+      flex-direction: row;
+    }
+    
+  }
+  

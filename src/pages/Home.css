@@ -1,0 +1,50 @@
+a.home_links {
+  color: black;
+  font-size: 23px;
+  text-decoration: underline;
+  font-weight: bolder;
+}
+#home-description {
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#home-title {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-top: 30px;
+  text-decoration: underline;
+  font-size: 50px;
+}
+a.home_links {
+  color: black;
+
+}
+#home-main {
+  margin-top: 10px;
+  align-content: center;
+  background-color: white;
+}
+
+#home-main-img-container {
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+}
+.home-main-img {
+  display: block;
+  width: 90vh;
+  height: auto;
+  align-self: center;
+  margin: 30px auto;
+  border-style: solid;
+  border-width: 5px;
+}
+.proj-links {
+  display: flex;
+  align-self: center;
+  align-content: center;
+  width: 16vh;
+  height:5vh;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  margin-bottom: 8vh;
+}

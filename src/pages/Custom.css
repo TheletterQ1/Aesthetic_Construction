@@ -1,0 +1,16 @@
+.custom-container {
+    display: flex;
+    flex: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+img.custom-pics {
+    width: 45%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-style: solid;
+    border-color: black;
+    border-width: 10px;
+    box-shadow: 5px 10px #888888;
+}
