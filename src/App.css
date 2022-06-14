@@ -14,10 +14,12 @@
 }
 h1, h2, h3 {
   text-decoration: underline;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 p {
   font-size: 23px;
-  font-weight: bolder;
+  /* font-weight: bolder; */
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .App-header {
   border-bottom: 5px;
@@ -27,12 +29,12 @@ p {
 #logo {
   height: 60vh;
   width: 75%;
-  border-style: solid;
+  /* border-style: solid;
   border-color: black;
-  border-bottom: 5px;
+  border-bottom: 5px; */
 }
 #logo-container{
-  background-color: darkgray;
+  background-color: #FFFFFF;
 }
 #icon-container {
   width: 100%;
@@ -40,7 +42,7 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
 }
 #icon-container p {
   text-decoration: underline;

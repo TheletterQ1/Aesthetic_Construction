@@ -6,7 +6,7 @@ const Services = () => (
   
         <div>
             <h2>Our Services</h2>
-            <p>Thank you for taking the time to visit our site,creating,nuilding,remodeling,and working with our amazing clients is our passion. We look forward to working with you on your projects.</p>
+            <p>Thank you for taking the time to visit our site,creating,building,remodeling,and working with our amazing clients is our passion. We look forward to working with you on your projects.</p>
             <h3>Remodel</h3>
             <p>We specialize in custom remodels that help make your space feel comfortable, clean, and most importantly, inspired by you. We loveworking with our clients one-on-one to create the space of your dreams. <span>Call or Email</span> for a custom quote.</p>
             <h3>Fix it</h3>

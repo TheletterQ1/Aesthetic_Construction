@@ -41,7 +41,7 @@ justify-content: space-around;
   display: flex;
   align-self: center;
   align-content: center;
-  width: 16vh;
+  /* width: 16vh; */
   height:5vh;
   background-color: black;
   color: white;
