@@ -11,7 +11,7 @@ import patio from "../Images/palazo2.jpg";
 import cali from "../Images/california.png";
 import az from "../Images/arizona.png";
 import { Link } from "react-router-dom";
-import House from "../pages/House";
+
 
 
 export const Home = () => {
