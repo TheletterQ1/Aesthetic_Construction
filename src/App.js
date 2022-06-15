@@ -12,6 +12,7 @@ import Commercial from './pages/Commercial'
 import Remodel from './pages/Remodel'
 import Projects from './pages/Projects'
 import House from './pages/House'
+import Residential from "./pages/Residential";
 function App() {
   return (
     <div className="App">
@@ -51,8 +52,8 @@ function App() {
           <Route path='/Remodels'>
             <Remodel />
           </Route>
-          <Route path='/House'>
-            <House />
+          <Route path='/Residential'>
+            <Residential />
           </Route>
         </Switch>
       </main>

@@ -13,6 +13,11 @@ import barcomplete from '../Images/barcomplete.jpg'
 import lobby2 from '../Images/lobby2.jpg'
 import lobby5 from '../Images/lobby5.jpg'
 import lobby6 from '../Images/lobby6.jpg'
+import biltSink from '../Images/biltmoresink.jpg' 
+import biltShower from '../Images/biltmore3.jpg'
+import biltWall from '../Images/biltmore2.jpg'
+import biltToilet from '../Images/biltmore5.jpg'
+
 
 function Commercial() {
     return (
@@ -36,6 +41,16 @@ function Commercial() {
                 <img className="custom-pics" src={barcomplete} alt='Finished Bar'/>
                 </div>
                 <br/>
+            
+            {/* <span className='remodel-detail'>Biltmore Hotel Bathroom Remodel</span> */}
+            <h2>Bathroom for The Biltmore </h2>
+            <div className='remodel-container'>
+            <img src={biltSink} alt='Biltmore sink' className='remodel-pics'/>
+            <img src={biltToilet} alt='Biltmore toilet' className='remodel-pics'/>
+            <img src={biltShower} alt='Biltmore shower' className='remodel-pics'/>
+            <img src={biltWall} alt='Biltmore bathroom wall' className='remodel-pics'/>
+            </div>
+            <br/>
                 <h2>Lobby Remodel</h2>
                 <div className='custom-container'>
                 <img className="custom-pics" src={lobby6} alt='Lobby'/>
