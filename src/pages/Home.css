@@ -30,9 +30,9 @@ justify-content: space-around;
 }
 .home-main-img {
   display: block;
-  width: 90vh;
+  /* width: 90vh;
   height: auto;
-  align-self: center;
+  align-self: center; */
   /* margin: 30px auto; */
   border-style: solid;
   border-width: 5px;
