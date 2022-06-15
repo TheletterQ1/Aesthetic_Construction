@@ -63,7 +63,7 @@ export const Home = () => {
       <br />
       <section id="home-main">
         <br />
-        <h2 id="home-title">You Dream It. We Build It</h2>
+        <h2 id="home-title">You Dream It  We Build It</h2>
         <p id="home-description">
           Specializing in refreshing remodels, custom carpentry, and all
           commercial and residential needs.{" "}

@@ -1,6 +1,6 @@
 a.home_links {
   color: black;
-  /* font-size: 23px; */
+  font-size: 16px;
   text-decoration: underline;
   font-weight: bolder;
 }
@@ -32,7 +32,7 @@ justify-content: space-around;
   display: block;
   /* width: 90vh;*/
   height: auto;
-  /* max-height: 50vh; */
+   max-height: 50vh;
   /* align-self: center;  
    margin: 30px auto; */
   border-style: solid;
@@ -49,8 +49,11 @@ justify-content: space-around;
   font-size: 20px;
   margin-bottom: 8vh;
 }
-@media only screen and (max-width: 450px) {
+ @media only screen and (min-width: 425px) {
   .home-main-img {
-    max-height: 40vh;
+    max-height: auto;
   }
-}
+  a.home_links {
+    font-size: auto;
+  }
+} 

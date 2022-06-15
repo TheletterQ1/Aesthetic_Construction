@@ -11,7 +11,7 @@ import stairs from "../Images/red-stairs.JPG";
 function Remodel() {
     return (
         <div id='remodel'>
-            <h2>Even for Complete Builds and Remodels, there is NO task to big for Aesthetic Construction</h2>
+            <h2>Even for Complete Builds and Remodels, there is NO task too big for Aesthetic Construction</h2>
             <br/>
             <div className="custom-container">
         <img
