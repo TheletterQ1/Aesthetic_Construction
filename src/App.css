@@ -82,7 +82,7 @@ div #states {
 }
 
 
-@media (min-width: 450px) {
+@media (max-width: 450px) {
   
 }
 
