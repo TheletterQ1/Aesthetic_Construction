@@ -32,7 +32,7 @@ justify-content: space-around;
   display: block;
   /* width: 90vh;*/
   height: auto;
-  max-height: 50vh;
+  /* max-height: 50vh; */
   /* align-self: center;  
    margin: 30px auto; */
   border-style: solid;
@@ -48,4 +48,9 @@ justify-content: space-around;
   color: white;
   font-size: 20px;
   margin-bottom: 8vh;
+}
+@media only screen and (max-width: 450px) {
+  .home-main-img {
+    max-height: 40vh;
+  }
 }
