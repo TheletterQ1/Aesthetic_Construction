@@ -32,6 +32,7 @@ justify-content: space-around;
   display: block;
   /* width: 90vh;*/
   height: auto;
+  max-height: 50vh;
   /* align-self: center;  
    margin: 30px auto; */
   border-style: solid;
