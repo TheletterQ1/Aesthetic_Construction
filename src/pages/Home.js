@@ -11,6 +11,9 @@ import patio from "../Images/palazo2.jpg";
 import cali from "../Images/california.png";
 import az from "../Images/arizona.png";
 import { Link } from "react-router-dom";
+import House from "../pages/House";
+
+
 export const Home = () => {
   return (
     <div id="home">
@@ -18,7 +21,7 @@ export const Home = () => {
         <div className="icon-div">
           <img id="house" className="icons" src={house} alt="home" />
           <Link className="home_links" to="/Residential">
-            Residential 
+            Residential
           </Link>
         </div>
         <div className="icon-div">
@@ -60,21 +63,29 @@ export const Home = () => {
       <br />
       <section id="home-main">
         <br />
-        <h2 id="home-title">You Dream It.  We Build It</h2>
-        <p id='home-description'>
+        <h2 id="home-title">You Dream It. We Build It</h2>
+        <p id="home-description">
           Specializing in refreshing remodels, custom carpentry, and all
           commercial and residential needs.{" "}
         </p>
         <div id="home-main-img-container">
           <h2>From Full Home Rennovations</h2>
           <img className="home-main-img" src={example1} alt="kitchen" />
-          <button className='proj-links'> See Project</button>
+          
+          <Link className="home_links" to="/Custom">
+            See Project
+          </Link>
+            {/* <button className="proj-links"> See Project</button> */}
+          
           <h2>And Commercial Remodels</h2>
           <img className="home-main-img" src={example2} alt="kitchen" />
-          <button className='proj-links'> See Project</button>
+          {/* <button className="proj-links"> See Project</button> */}
+          <Link className="home_links" to="/Commercial">
+            See Project
+          </Link>
           <h2>To Completely Custom Builds</h2>
           <img className="home-main-img" src={patio} alt="patio" />
-          <button className='proj-links'> See Project</button>
+          <button className="proj-links"> See Project</button>
         </div>
       </section>
     </div>
