@@ -63,7 +63,7 @@ export const Home = () => {
       <br />
       <section id="home-main">
         <br />
-        <h2 id="home-title">You Dream It  We Build It</h2>
+        <h2 id="home-title">You Dream It <br/> We Build It</h2>
         <p id="home-description">
           Specializing in refreshing remodels, custom carpentry, and all
           commercial and residential needs.{" "}
@@ -72,7 +72,7 @@ export const Home = () => {
           <h2>From Full Home Rennovations</h2>
           <img className="home-main-img" src={example1} alt="kitchen" />
           
-          <Link className="home_links" to="/Custom">
+          <Link className="home_links2" to="/Remodels">
             See Project
           </Link>
             {/* <button className="proj-links"> See Project</button> */}
@@ -80,12 +80,12 @@ export const Home = () => {
           <h2>And Commercial Remodels</h2>
           <img className="home-main-img" src={example2} alt="kitchen" />
           {/* <button className="proj-links"> See Project</button> */}
-          <Link className="home_links" to="/Commercial">
+          <Link className="home_links2" to="/Commercial">
             See Project
           </Link>
           <h2>To Completely Custom Builds</h2>
           <img className="home-main-img" src={patio} alt="patio" />
-          <button className="proj-links"> See Project</button>
+          <Link className= "home_links2" to="/Custom"> See Project</Link>
         </div>
       </section>
     </div>

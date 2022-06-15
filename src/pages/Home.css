@@ -13,8 +13,14 @@ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   text-decoration: underline;
   font-size: 50px;
 }
-a.home_links {
-  color: black;
+a.home_links2 {
+  color: white;
+  background-color: black;
+  border: 2px;
+  width: 10vh;
+  height: auto;
+  align-self: center;
+  font-size: 18px;
 
 }
 #home-main {
